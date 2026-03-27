@@ -1,0 +1,48 @@
+f6379cf Adiciona descricao ao portfolio
+cc3cfa8 Adiciona idade ao portfolio
+e9b8035 Adiciona nome ao porfolio
+8be959c Adiciona a página principal
+c060375 Adiciona ficheiro readme
+commit e9b80351bcb3e5f4c21efce8109cba82a443d6a9
+Author: Gustavo Carvalho <gustavo23morgado@gmail.com>
+Date:   Fri Mar 27 15:50:14 2026 +0000
+
+    Adiciona nome ao porfolio
+
+diff --git a/index.html b/index.html
+index f2e8495..d4ad0c2 100644
+--- a/index.html
++++ b/index.html
+@@ -10,6 +10,7 @@
+ <body>
+     <h1>Portfolio</h1>
+     <p>Bem vindo ao meu portfolio.</p>
++    <p>Nome: Gustavo</p>
+ </body>
+ 
+ </html>
+\ No newline at end of file
+diff --git a/index.html b/index.html
+deleted file mode 100644
+index 7396d88..0000000
+--- a/index.html
++++ /dev/null
+@@ -1,17 +0,0 @@
+-<!DOCTYPE html>
+-<html lang="en">
+-
+-<head>
+-    <meta charset="UTF-8">
+-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>Portfolio</title>
+-</head>
+-
+-<body>
+-    <h1>Portfolio</h1>
+-    <p>Bem vindo ao meu portfolio.</p>
+-    <p>Nome: Gustavo</p>
+-    <p>Idade: 18</p>
+-</body>
+-
+-</html>
+\ No newline at end of file
